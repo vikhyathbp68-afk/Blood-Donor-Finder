@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Donor Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Blood Donor Finder</h1>
+
+<h2>Register Donor</h2>
+<input id="name" placeholder="Name">
+<select id="blood">
+    <option>A+</option>
+    <option>B+</option>
+    <option>O+</option>
+    <option>AB+</option>
+</select>
+<input id="phone" placeholder="Phone">
+<button onclick="register()">Register</button>
+
+<h2>Search Donor</h2>
+<select id="searchBlood">
+    <option>A+</option>
+    <option>B+</option>
+    <option>O+</option>
+    <option>AB+</option>
+</select>
+<button onclick="search()">Search</button>
+
+<ul id="result"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
